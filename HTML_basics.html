@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+    <title>HTML basics</title>
+</head>
+<body style="background-color:#ffc5b8;">
+
+<h1> HTML</h1>
+
+<p> HTML is Hyper Text Markup Language. It is the standard markup language for creating Web pages</p>
+<p> !DOCTYPE html declaration defines that this document is an HTML5 document </p>
+<p> HTML tags are not case sensitive: P means the same as p. The HTML standard does not require lowercase tags, but lowercase in HTML is recommended, and lowercase is needed for stricter document types like XHTML.</p>
+<p> Some HTML elements have no content (like the br element). These elements are called empty elements. Empty elements do not have an end tag. br tag defines a line break. </p>
+<p> .htm or .html are the file extension of html </p>
+<hr>
+<h1> Heading 1 </h1>
+<h2> Heading 2</h2>
+<h3> Heading 3 </h3>
+<h4> Heading 4 </h4>
+<h5> Heading 5 </h5>
+<h6> Heading 6 </h6> 
+<p> h7 , h8, h9.... doesnt work </p>
+<br>
+<hr>
+<h1> HTML LINKS </h1>
+<p> Links are defined with "a" tag. Link's destination is specified in the href attribute. </p>
+<a href="https://tenor.com/view/crunchycat-luna-cat-smirk-smile-gif-9301919548442205824"> This is a cat meme link</a>
+
+<br> 
+<hr>
+<h1 style="color:red;"> HTML IMAGE </h1>
+<p> HTML images are defined with the "img" tag. The source file (src), alternative text (alt), width, and height are provided as attributes </p>
+<img src="C:\Users\HP\OneDrive\Desktop\memecat.jpg" alt="CATTT" width="142" height="150">
+<p> 1. Absolute URL - Links to an external image that is hosted on another website. Example: src="https://www.w3schools.com/images/img_girl.jpg". </p>
+<p> 2. Relative URL - Links to an image that is hosted within the website. Here, the URL does not include the domain name. If the URL begins without a slash, it will be relative to the current page. Example: src="img_girl.jpg". If the URL begins with a slash, it will be relative to the domain. Example: src="/images/img_girl.jpg".</p>
+<br>
+<hr>
+<br>
+<p> Click CTRL + U in an HTML page, or right-click on the page and select "View Page Source". This will open a new tab containing the HTML source code of the page.</p>
+<p> or </p>
+<p> Right-click on an element (or a blank area), and choose "Inspect" to see what elements are made up of (you will see both the HTML and the CSS). </p>
+<br>
+
+<p> elememts in html are nested -> that is ek element ke andar dusra element</p>
+<p> The style attribute is used to add styles to an element, such as color, font, size, and more. </p>
+<p>You should always include the lang attribute inside the html tag, to declare the language of the Web page. This is meant to assist search engines and browsers.</p>
+<p>The title attribute defines some extra information about an element.
+The value of the title attribute will be displayed as a tooltip when you mouse over the element</p>
+<p title="I'm a tooltip">This is a paragraph.(use of title attribute)</p>
+<p> The hr tag defines a thematic break in an HTML page, and is most often displayed as a horizontal rule.</p>
+<hr>
+<p> to display the exact same paragraph with line breaks we use pre element. Defines pre-formatted text </p>
+<pre>
+  My Bonnie lies over the ocean.
+
+  My Bonnie lies over the sea.
+
+  My Bonnie lies over the ocean.
+
+  Oh, bring back my Bonnie to me.
+</pre>
+<hr>
+<h1> HTML STYLES </h1>
+<p>The HTML style attribute is used to add styles to an element, such as color, font, size, and more.</p>
+<p> syntax is tagname style = "property:value;" </p>
+<p> here the property and value are CSS property </p>
+<br>
+<h4 style="background-color:white;"> Background </h4>
+<p> background should be mentioned in the body (for the whole page)</p>
+<p>can set for a particular tag too (looks like as we have highlighted) </p>
+<h4 style="background-color:white;"> Text colour </h4>
+<p> It defines the text colour </p>
+<p> syntax is tag style="color : colour name ;"  </p>
+<p> Example : </p>
+<p style="color:red;">Changed the text colour to red </p>
+<br>
+<h4 style="background-color:white;"> Fonts </h4>
+<p> changes the font </p>
+<p> Example : </p>
+<h1 style="font-family:verdana;">Verdana</h1>
+<p style="font-family:courier;">courier</p>
+<br>
+<h4 style="background-color:white;"> Text Size </h4>
+<p> Changes the font size</p>
+<p>Example : </p>
+<p style="font-size:200%;"> 200% more! </p>
+<br>
+<h4 style="background-color:white;"> Text Alignmennt </h4>
+<p>Changes the alignment </p>
+<p style="text-align:center;"> This text will align in the center </p>
+<br>
+<h4 style="background-color:white;"> HTML Formatting Elements </h4>
+<b>Bold</b><br>
+<strong> Strong</strong><br>
+<i>italic</i><br>
+<em>Emphasized text </em><br>
+<mark>Marked text</mark><br>
+<small> Small text </small><br>
+<del> Deleted text </del><br>
+<ins> inserted text </ins><br>
+<b>TEXT</b><sub>Subscript text </sub><br>
+<b>TEXT</b><sup> Superscript text </sup><br>
+<br>
+<br>
+<h4 style="background-color:white;"> blockquote </h4>
+<p> Blockquote : The HTML "blockquote" element defines a section that is quoted from another source. Browsers usually indent blockquote elements. </p>
+<p>Here is a quote from WWF's website:</p>
+<blockquote cite="http://www.worldwildlife.org/who/index.html">
+For 60 years, WWF has worked to help people and nature thrive. As the world's leading conservation organization, WWF works in nearly 100 countries. At every level, we collaborate with people around the world to develop and deliver innovative solutions that protect communities, wildlife, and the places in which they live.
+</blockquote>
+<br>
+<br>
+<h4 style="background-color:white;"> Quotation </h4>
+<p> q = is used for quotation </p>
+<p>WWF's goal is to: <q>Build a future where people live in harmony with nature.</q></p>
+<br>
+<br>
+<h4 style="background-color:white;"> Abbreviation </h4>
+<p> abbr : is for abbreviation </p>
+<p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+<br>
+<br>
+<h4 style="background-color:white;"> Address </h4>
+<p> The HTML address tag defines the contact information for the author/owner of a document or an article.
+The contact information can be an email address, URL, physical address, phone number, social media handle, etc.
+The text in the address element usually renders in italic, and browsers will always add a line break before and after the address element.</p>
+<p> Example: </p>
+<address>
+Written by John Doe.<br>
+Visit us at:<br>
+Example.com<br>
+Box 564, Disneyland<br>
+USA
+</address>
+<br>
+<h4 style="background-color:white;"> Cite </h4>
+<p>The HTML cite tag defines the title of a creative work (e.g. a book, a poem, a song, a movie, a painting, a sculpture, etc.).
+<br>
+Note: A person's name is not the title of a work.
+<br>
+The text in the <cite> element usually renders in italic.</p>
+<p><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p>
+<br>
+<h4 style="background-color:white;"> Bi-Directional Override </h4>
+<p> BDO stands for Bi-Directional Override. The HTML <bdo> tag is used to override the current text direction (basically reverse order me) </p>
+<bdo dir="rtl">This text will be written from right to left</bdo>
+<br>
+<hr>
+<br>
+<h3>Comments! </h3>
+<p> comments are not displayed in the browser its for the coder to read (self explanation or marking ) </p>
+<p> Syntax is : !--    -- </p>
+<!--this is a comment --> 
+<p> we can write comment in line too like in this line there is a comment <!--helloooo--> </p>
+<hr>
+<h3> Boarder colour !</h3>
+<h1 style="border:2px solid DodgerBlue;">Hello World</h1>
+<br>
+<br>
+<br>
+<!--RGB value-->
+<h1 style="background-color:rgb(255, 99, 71);">...</h1>
+<!-- HEX value-->
+<h1 style="background-color:#ff6347;">...</h1>
+<!-- HSL value-->
+<h1 style="background-color:hsl(9, 100%, 64%);">...</h1>
+
+<h1 style="background-color:rgba(255, 99, 71, 0.5);">...</h1>
+<h1 style="background-color:hsla(9, 100%, 64%, 0.5);">...</h1>
+<br>
+<hr>
+<h2>Colours</h2>
+<h3><b> RGB </b></h3>
+<p>An RGB color value represents RED, GREEN, and BLUE light sources. An RGBA color value is an extension of RGB with an Alpha channel (opacity). </p>
+<p>rgb( red itnesity , green intensity, blue intensity , alpha(opacity) intensity)</p>
+<br>
+<br>
+<h3><b> HEX colours  </b></h3>
+<p>A hexadecimal color is specified with: #RRGGBB, where the RR (red), GG (green) and BB (blue) hexadecimal integers specify the components of the color.</p>
+<p>Where rr (red), gg (green) and bb (blue) are hexadecimal values between 00 and ff (same as decimal 0-255)</p>
+<p> To display black, set all color parameters to 00, like this: #000000.
+To display white, set all color parameters to ff, like this: #ffffff.</p>
+<br>
+<br>
+<h3><b> HSL </b></h3>
+<p>HSL stands for hue, saturation, and lightness.
+HSLA color values are an extension of HSL with an Alpha channel (opacity). </p>
+<p> hsl(hue, saturation, lightness) </p>
+<p> Hue is a degree on the color wheel from 0 to 360. 0 is red, 120 is green, and 240 is blue.</p>
+<p>Saturation is a percentage value. 0% means a shade of gray, and 100% is the full color.</p>
+<p> Lightness is also a percentage value. 0% is black, and 100% is white. </p>
+<br>
+<br>
+<h3><b> HSLA </b></h3>
+<p> HSLA color values are an extension of HSL color values, with an Alpha channel - which specifies the opacity for a color.</p>
+<p>The alpha parameter is a number between 0.0 (fully transparent) and 1.0 (not transparent at all)</p>
+
+
+</body>
+</html>
