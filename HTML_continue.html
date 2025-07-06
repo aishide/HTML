@@ -1,0 +1,294 @@
+<!Doctype HTML>
+<html>
+<head>
+<title>HTML continue </title>
+</head>
+<body style="background-color:#ffbc52;">
+
+<h1> HTML CONTINUE!! </h1>
+
+<h3 style="background-color:#ffffff;"> HTML Links - The target Attribute </h3>
+<pre>
+The target attribute specifies where to open the linked document.
+
+The target attribute can have one of the following values:
+
+_self - Default. Opens the document in the same window/tab as it was clicked
+_blank - Opens the document in a new window or tab
+_parent - Opens the document in the parent frame
+_top - Opens the document in the full body of the window
+</pre>
+ <p>Example: </p>
+<a href = "https://www.youtube.com/watch?v=WsnYc-Axu-Y" target="_self">Enjoy the live music! (Self) </a><br>
+<a href = "https://www.youtube.com/watch?v=WsnYc-Axu-Y" target="_blank">Enjoy the live music! (Blank) </a><br>
+<a href = "https://www.youtube.com/watch?v=WsnYc-Axu-Y" target="_parent">Enjoy the live music! (parent) </a><br>
+<a href = "https://www.youtube.com/watch?v=WsnYc-Axu-Y" target="_top">Enjoy the live music! (top) </a>
+<br>
+<hr>
+
+<h3 style="background-color:#ffffff;"> HTML Links - Use an Image as a Link </h3>
+
+<p> To use an image as a link, just put the <img> tag inside the "a" tag</p>
+<p> Example: </p>
+<a href=https://www.youtube.com/watch?v=w9Wc7KHspuU >
+<img src="C:\Users\HP\OneDrive\Desktop\memecat.jpg" alt="meme cat!" style="height:105px;width:100px;">
+</a>
+<hr>
+
+<h3 style="background-color:#ffffff;">Link to an Email Address </h3>
+<p> Use mailto: inside the href attribute to create a link that opens the user's email program </p>
+<p> Example: </p>
+<a href="mailto:aishibde@gmail.com"> Click here to mail! </a>
+<br>
+<hr>
+
+<h3 style="background-color:#ffffff;">Button as a Link</h3>
+<p> To use an HTML button as a link, you have to add some JavaScript code.</p>
+<p>JavaScript allows you to specify what happens at certain events, such as a click of a button</p>
+<p> Example: </p>
+<button onclick="document.location='https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox'" style="background-color:red;">BUTTON FOR GMAIL</button>
+<br>
+<hr>
+
+<h3 style="background-color:#ffffff;">Link Titles</h3>
+<p> The title attribute specifies extra information about an element. The information is most often shown as a tooltip text when the mouse moves over the element.</p>
+<p>When we hover over it we get details and on clicking the link we go to tyhe website or link which we have mentioned</p>
+<a href="https://www.w3schools.com/html/" title="Go to W3Schools HTML section">Visit our HTML Tutorial</a>
+<br>
+<hr>
+<pre> default.asp is a file that a website shows first when you open it.
+It is used in websites made with Microsoft's old web coding called ASP.
+It helps the website work and show things like text or pictures.</pre>
+
+<br>
+<pre>
+By default, a link will appear like this (in all browsers):
+
+An unvisited link is underlined and blue
+A visited link is underlined and purple
+An active link is underlined and red
+</pre>
+
+<br>
+
+<p> Here, an unvisited link will be green with no underline. A visited link will be pink with no underline. An active link will be yellow and underlined. In addition, when mousing over a link (a:hover) it will become red and underlined </p>
+ <p> INside head if we write this code we will get the above output for the link which we will mention in the body </p>
+
+<pre>
+<style>
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+</style>
+</pre>
+
+<hr>
+<br>
+<h3> Link button</h3>
+<p> Code is in the code , its CSS , should be writtin in head </p>
+<pre>
+<style>
+a:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: red;
+}
+</style>
+</pre>
+
+<br>
+<hr>
+<br>
+<h3 style="background-color:white;"> HTML Links - Create Bookmarks </h3>
+<p>HTML links can be used to create bookmarks, so that readers can jump to specific parts of a web page.</p>
+<p> First, use the "id" attribute to create a bookmark</p>
+<pre> 
+<h2 id="C4">Chapter 4</h2>
+<a href="#C4">Jump to Chapter 4</a>
+</pre>
+<pre>
+Use the id attribute (id="value") to define bookmarks in a page
+Use the href attribute (href="#value") to link to the bookmark
+</pre>
+<hr>
+<br>
+<br>
+
+<h3> HTML image </h3>
+<p>The width, height, and style attributes are all valid in HTML.</p>
+<p>However, we suggest using the style attribute. It prevents styles sheets from changing the size of images</p>
+<p> HTML allows animated GIFs</p>
+
+<h4> Floatting Image </h4>
+
+<pre>
+
+<p><strong>Float the image to the right:</strong></p>
+
+<p>
+<img src="smiley.gif" alt="Smiley face" style="float:right;width:42px;height:42px;">
+A paragraph with a floating image. A paragraph with a floating image. A paragraph with a floating image.
+</p>
+
+</pre>
+ <hr>
+<p> Image formats </p>
+<pre>
+APNG	Animated Portable Network Graphics	.apng
+GIF	Graphics Interchange Format	.gif
+ICO	Microsoft Icon	.ico, .cur
+JPEG	Joint Photographic Expert Group image	.jpg, .jpeg, .jfif, .pjpeg, .pjp
+PNG	Portable Network Graphics	.png
+SVG	Scalable Vector Graphics	.svg
+</pre>
+<hr>
+<p>The HTML "map"" tag defines an image map. An image map is an image with clickable areas. The areas are defined with one or more "area" tags.</p>
+ <p>
+The image is inserted using the "img" tag. The only difference from other images is that you must add a usemap attribute:
+
+"img src="workplace.jpg" alt="Workplace" usemap="#workmap""
+</p>
+<p> Code below: </p>
+<pre>
+
+<img src="workplace.jpg" alt="Workplace" usemap="#workmap">
+
+<map name="workmap">
+  <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+  <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+  <area shape="circle" coords="337,300,44" alt="Coffee" href="coffee.htm">
+</map>
+
+</pre>
+<pre>
+
+Shape
+You must define the shape of the clickable area, and you can choose one of these values:
+
+rect - defines a rectangular region
+circle - defines a circular region
+poly - defines a polygonal region
+default - defines the entire region
+You must also define some coordinates to be able to place the clickable area onto the image. 
+
+</pre>
+
+<hr>
+<h3> Background image </h3>
+<p> background image in Paragraph </p>
+<p> Example</p>
+<pre>
+"p style="background-image: url('img_girl.jpg');""
+</pre>
+
+<p> in style </p>
+<pre>
+"style"
+p {
+  background-image: url('img_girl.jpg');
+}
+"/style"
+</pre>
+<p> Background image on entire page </p>
+<pre>
+"style"
+body {
+  background-image: url('img_girl.jpg');
+}
+"/style"
+</pre>
+
+<p> If the background image is smaller than the element, the image will repeat itself, horizontally and vertically, until it reaches the end of the element </p>
+<pre>
+"style"
+body {
+  background-image: url('example_img_girl.jpg');
+}
+"/style"
+</pre>
+<br>
+<p> for stoping the repeating </p>
+<pre>
+"style"
+body {
+  background-image: url('example_img_girl.jpg');
+  background-repeat: no-repeat;
+}
+"/style"
+</pre>
+
+<pre>
+Background Cover
+If you want the background image to cover the entire element, you can set the background-size property to cover.
+
+Also, to make sure the entire element is always covered, set the background-attachment property to fixed:
+
+This way, the background image will cover the entire element, with no stretching (the image will keep its original proportions)
+</pre>
+<p> Example: </p>
+<pre>
+"style"
+body {
+  background-image: url('img_girl.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+"/style"
+</pre>
+
+<hr>
+
+<h3>The HTML "picture" Element </h3>
+<pre>
+The HTML "picture" element gives web developers more flexibility in specifying image resources.
+
+The <picture> element contains one or more <source> elements, each referring to different images through the srcset attribute. This way the browser can choose the image that best fits the current view and/or device.
+
+Each "source" element has a media attribute that defines when the image is the most suitable.
+</pre>
+
+<pre>
+"picture"
+  "source media="(min-width: 650px)" srcset="img_food.jpg""
+  "source media="(min-width: 465px)" srcset="img_car.jpg""
+  "img src="img_girl.jpg""
+"/picture"
+</pre>
+<hr>
+<br>
+<br>
+<p> Favicon is a small image on tab website ke yaha </p>
+<pre>
+"head"
+  "title"My Page Title"/title"
+  "link rel="icon" type="image/x-icon" href="/images/favicon.ico""
+"/head"
+</pre>
+
+</body>
+</html>
